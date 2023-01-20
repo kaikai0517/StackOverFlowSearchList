@@ -27,7 +27,7 @@ function Search() {
   }
 
   /* 設定debounce優化請求流程 */
-  const debounceHandler = useCallback(debounce(fetchData, 3000), [])
+  const debounceHandler = useCallback(debounce(fetchData, 500), [])
 
   const onInputDebounceChange = (e) => {
     setInputDebounce(e.target.value)
