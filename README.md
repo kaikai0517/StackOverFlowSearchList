@@ -10,8 +10,8 @@ Using Debounce and lazy data-loading to enhance app performance.
 ## Installation
 
 ```shell
-$ git clone https://github.com/kylemocode/dcard-reader.git
-$ cd dcard-reader
+$ git clone git@github.com:kaikai0517/StackOverFlowSearchList.git
+$ cd StackOverFlowSearchList
 $ npm install && npm start (or using yarn instead)
 ```
 
