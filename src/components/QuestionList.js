@@ -10,20 +10,6 @@ function QuestionList() {
     const [page, setPage] = useState(1);
     const { firstFetchLoading, moreFetchloading, error, questions, hasMore } = useFetchQuestions(lastId, page);
 
-    /* answer highlight 樣式 */
-    const answerClass = (count, is_answered) => {
-        if (count > 0 && is_answered) {
-            return "bg-[#377D23] text-white"
-        } else if (count > 0) {
-            return 'border-[#377D23] border-[2px] text-[#377D23]'
-        }
-    }
-
-    /* score highlight 樣式 */
-    const scoreClass = (score) => {
-        return score < 0 ? 'text-red-500' : ''
-    }
-
     const observer = useRef();
 
     /* 無限滾動流程 */
