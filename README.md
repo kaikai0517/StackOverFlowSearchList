@@ -5,7 +5,10 @@ A webapp that can search stack overflow question.
 Using Debounce and lazy data-loading to enhance app performance.
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-![image](./src/assets/demo.gif)
+
+<div  align="center">    
+ <img src="./src/assets/demo.gif" width = "500" height = "300" alt="demo"/>
+</div>
 
 ## Installation
 
