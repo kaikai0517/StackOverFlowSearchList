@@ -1,0 +1,13 @@
+import React from 'react';
+import HomeScreen from './views/HomeScreen';
+
+function App() {
+  return (
+    <div className="max-w-7xl mx-auto">
+      {/* 主要畫面 */}
+      <HomeScreen></HomeScreen>
+    </div>
+  );
+}
+
+export default App;
