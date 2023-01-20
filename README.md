@@ -5,7 +5,7 @@ A webapp that can search stack overflow question.
 Using Debounce and lazy data-loading to enhance app performance.
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-![image](./assets/dcard-reader.gif)
+![image](./assets/demo.gif)
 
 ## Installation
 
@@ -32,8 +32,10 @@ In addition to lazy-loading data, this repo also use react core functions to enh
 ## Source Code File Structure
 ```
 src
-├── api
+├── app
 │   └── store.js
+├── assets
+│   └── demo.gif
 ├── components
 │   └── style
 │        └── Loading.css
