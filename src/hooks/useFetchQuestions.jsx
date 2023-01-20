@@ -29,7 +29,6 @@ export default function useFetchQuestions(lastId, page) {
 			if (!tag) {
 				setFirstFetchLoading(false);
 				setMoreFetchLoading(false);
-				setError(true);
 				return
 			}
 			/* 若切換tag,清除所有question和設定當前tag */
