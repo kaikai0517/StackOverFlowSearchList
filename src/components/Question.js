@@ -15,7 +15,8 @@ function Question({ question }) {
         return score < 0 ? 'text-red-500' : ''
     }
     return (
-        <button className='border-b-[2px] hover:bg-[#B8D6E3] hover:scale-105 w-full' onClick={() => { window.open(question.link) }}>
+        /* data-aos 動畫*/
+        <button data-aos="fade-right" className='border-b-[2px] hover:bg-[#B8D6E3] hover:scale-105 w-full' onClick={() => { window.open(question.link) }}>
             <div className='text-left'>{question.title}</div>
             <div className='flex justify-between ml-10 mr-5'>
                 <div>
