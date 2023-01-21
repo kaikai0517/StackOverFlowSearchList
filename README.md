@@ -20,6 +20,7 @@ $ npm install && npm start (or using yarn instead)
 
 ## Features:
   - [X] Infinite Scroll
+  - [X] Aos third party animaiton
   - [X] Lazy Load
   - [X] Performance
   - [X] Debounce
